@@ -33,12 +33,12 @@ public class ChowdhuryTipCalculator {
         System.out.println("Party of: " + party);
         System.out.println("Dishes ordered: " + dishes);
         System.out.println("====================================");
-        System.out.println("Total bill before tip: $" + costBeforeTip);
-        System.out.println("Cost per person before tip: $" + (costBeforeTip/party));
+        System.out.println("Total bill before tip: $" + String.format("%.2f", costBeforeTip));
+        System.out.println("Cost per person before tip: $" + String.format("%.2f", (costBeforeTip/party)));
         System.out.println("Percentage tipped: " + tip + "%");
-        System.out.println("Total tip: $" + tips);
-        System.out.println("Tip per person: $ " + (tips/party));
-        System.out.println("Total bill after tip: $" + totalCost);
-        System.out.println("Per person cost after tip: $" + (totalCost/party));
+        System.out.println("Total tip: $" + String.format("%.2f", tips));
+        System.out.println("Tip per person: $ " + String.format("%.2f", (tips/party)));
+        System.out.println("Total bill after tip: $" + String.format("%.2f", totalCost));
+        System.out.println("Per person cost after tip: $" + String.format("%.2f", (totalCost/party)));
     }
 }
