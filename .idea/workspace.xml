@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0feb838b-8e00-4690-a3c2-b62bdbb7f460" name="Changes" comment="commit 3: Minor debugging + Started receipt output">
+    <list default="true" id="0feb838b-8e00-4690-a3c2-b62bdbb7f460" name="Changes" comment="commit 4: adding more">
       <change beforePath="$PROJECT_DIR$/src/ChowdhuryTipCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChowdhuryTipCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695317634930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 4: adding more">
+      <created>1695317826348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695317826348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 1: stuck with how to make program repeat with while" />
     <MESSAGE value="commit 2: Resolved issue from first commit" />
     <MESSAGE value="commit 3: Minor debugging + Started receipt output" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 3: Minor debugging + Started receipt output" />
+    <MESSAGE value="commit 4: adding more" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4: adding more" />
   </component>
 </project>

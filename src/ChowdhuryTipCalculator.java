@@ -16,28 +16,29 @@ public class ChowdhuryTipCalculator {
         int dishes = scan.nextInt();
         int num = dishes;
         double cost;
-        double totalCost= 0;
+        double costBeforeTip= 0;
 
         while (num > 0) {
             System.out.print("How much did each of your dishes cost?");
             cost = scan.nextDouble();
             scan.nextLine();
-            totalCost += cost;
+            costBeforeTip += cost;
             num -= 1;
         }
 
-        double tips = totalCost/tip;
+        double tips = costBeforeTip*(tip/100.0);
+        double totalCost = costBeforeTip+tips;
 
         System.out.println("RECEIPT: ");
         System.out.println("Party of: " + party);
         System.out.println("Dishes ordered: " + dishes);
         System.out.println("====================================");
-        System.out.println("Total bill before tip: $" + totalCost);
-        System.out.println("Cost per person before tip: $" + (totalCost/party));
+        System.out.println("Total bill before tip: $" + costBeforeTip);
+        System.out.println("Cost per person before tip: $" + (costBeforeTip/party));
         System.out.println("Percentage tipped: " + tip + "%");
         System.out.println("Total tip: $" + tips);
         System.out.println("Tip per person: $ " + (tips/party));
-        System.out.println("Total bill after tip: $" + (tips+totalCost));
-
+        System.out.println("Total bill after tip: $" + totalCost);
+        System.out.println("Per person cost after tip: $" + (totalCost/party));
     }
 }
