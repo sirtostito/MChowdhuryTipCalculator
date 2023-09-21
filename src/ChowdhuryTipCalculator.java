@@ -33,9 +33,11 @@ public class ChowdhuryTipCalculator {
         System.out.println("Dishes ordered: " + dishes);
         System.out.println("====================================");
         System.out.println("Total bill before tip: $" + totalCost);
+        System.out.println("Cost per person before tip: $" + (totalCost/party));
         System.out.println("Percentage tipped: " + tip + "%");
         System.out.println("Total tip: $" + tips);
-
+        System.out.println("Tip per person: $ " + (tips/party));
+        System.out.println("Total bill after tip: $" + (tips+totalCost));
 
     }
 }
