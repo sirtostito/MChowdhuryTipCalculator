@@ -14,7 +14,17 @@ public class ChowdhuryTipCalculator {
 
         System.out.println("How many dishes have you ordered off our menu today?");
         int dishes = scan.nextInt();
+        int num = dishes;
+        double tips;
+        double totalTips= 0;
 
+        while (num > 0) {
+            System.out.print("How much did each of your dishes cost?");
+            tips = scan.nextDouble();
+            scan.nextLine();
+            totalTips += tips;
+            num -= 1;
+        }
 
     }
 }
